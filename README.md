@@ -4,7 +4,7 @@
 
 ## 🚀 Live Demo
 
-👉 [WanderLust is Live Here](https://wander-lust-4a7b.onrender.com)
+👉 [WanderLust is Live Here](https://wanderlust-vumh.onrender.com/listings)
 
 ---
 
