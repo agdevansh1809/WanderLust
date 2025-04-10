@@ -1,6 +1,6 @@
 # 🌍 WanderLust
 
-> A full-stack travel web application that allows users to discover, create, and review beautiful campgrounds from around the world.
+> A full-stack travel web application that allows users to discover, create, and review beautiful places from around the world.
 
 ## 🚀 Live Demo
 
@@ -23,9 +23,9 @@
 
 ## 📖 About
 
-**WanderLust** is inspired by YelpCamp and built from scratch using the MERN-adjacent stack (MongoDB, Express, Node.js, EJS). The platform lets users:
+**WanderLust** is inspired by AirBnb and built from scratch using the MERN-adjacent stack (MongoDB, Express, Node.js, EJS). The platform lets users:
 
-- Explore various campgrounds.
+- Explore various listings.
 - View detailed descriptions, locations, and images.
 - Leave reviews and ratings.
 - Create, update, and delete their own listings and reviews.
@@ -36,8 +36,8 @@ This project showcases my capabilities in backend logic, authentication, RESTful
 
 ## ✨ Features
 
-- 🧭 Browse campgrounds with images and details.
-- ➕ Create, Edit & Delete campground listings (authenticated users only).
+- 🧭 Browse listings with images and details.
+- ➕ Create, Edit & Delete listings (authenticated users only).
 - 💬 Add & manage reviews for each campground.
 - 🔐 Secure authentication with sessions and password hashing (Passport.js).
 - ☁️ Image upload using Cloudinary.
