@@ -54,15 +54,21 @@ module.exports.renderEditForm =async (req, res) => {
 
 module.exports.editListing =async (req, res) => {
     let {id} = req.params;
-    let newListing = await Listing.findByIdAndUpdate(id,{...req.body.listing});
+    let newListing = await Listing.findByIdAndUpdate(id,{...req.body.listing}, { new: true });
+    let response = await geocodingClient.forwardGeocode({
+        query: newListing.location,
+        limit: 1
+      })
+        .send();
+    newListing.geometry = response.body.features[0].geometry;
 
     if(typeof req.file !== "undefined"){
     let url = req.file.path;
     let filename = req.file.filename;
     newListing.image = {url,filename};
-    await newListing.save();
     };
 
+    await newListing.save();
     req.flash("success", "Listing Edited!");
     res.redirect(`/listings/${id}`);
 };
