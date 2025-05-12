@@ -13,11 +13,6 @@
 - [About](#about)
 - [Features](#features)
 - [Tech Stack](#tech-stack)
-- [Screenshots](#screenshots)
-- [Installation](#installation)
-- [Folder Structure](#folder-structure)
-- [Future Improvements](#future-improvements)
-- [Author](#author)
 
 ---
 
